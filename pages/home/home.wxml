@@ -1,0 +1,16 @@
+<view class="home-warpper">
+<scroll-view class="todoList" scroll-y="true">
+<view class="item" wx:for="{{lists}}" wx:for-index="index" bindtap="destoryTodo" data-index="{{index}}" wx:key="{{item.id}}">
+<view class="select {{item.finished && 'active'}}"></view>
+<text>{{item.text}}</text>
+</view>
+</scroll-view>
+<g-button class="createButton" type="change" bindtap="showConfirm" text="创建任务"></g-button>
+<view class="tomato-wrapper">
+<view class="tomato">
+<g-clock text="点击开始闹钟"></g-clock>
+</view>
+</view>
+<g-confirm visible="{{visibleConfirm}}" placeholder="设置你的闹铃时间" bindconfirm="confirmCreate" bindcancel="hidenConfirm"></g-confirm>
+</view>
+
