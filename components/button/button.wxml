@@ -1,0 +1,2 @@
+<!--components/button/button.wxml-->
+<text class="toma-button {{type==='change' ? 'change' : 'default'}} {{size==='mini' && mini}}">{{text}}</text>
