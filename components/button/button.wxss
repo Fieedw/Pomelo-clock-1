@@ -1,6 +1,6 @@
 button::after{border: none;}
 .button-hover{opacity: 0.9;}
-.toma-button{
+.pomelo-button{
 width:540rpx;
 height: 80rpx;
 border-radius: 16rpx;
@@ -11,14 +11,14 @@ justify-content: center;
 align-items: center;
 margin:0 auto;
 }
-.toma-button.change{
+.pomelo-button.change{
   background:linear-gradient(to right,#EF9B75,#F6705A) ;
   box-shadow: 0 11px 32px 0 rgba(246,112,90,0.3);
 }
-.toma-button.default{
+.pomelo-button.default{
   background: transparent;
   border: 2rpx solid #F6705A;color: #F6705A;
 }
-.toma-button.min{
+.pomelo-button.min{
   width:360rpx;
 }

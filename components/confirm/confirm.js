@@ -6,7 +6,7 @@ value: false,
     },
     placeholder:{
       type: String,
-      value:'xxxx'
+      value:""
     }
   },
   methods: {
