@@ -20,7 +20,7 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "专注",
+        "text": "任务",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-active.png"
       },
@@ -31,6 +31,5 @@
         "selectedIconPath": "images/me-active.png"
       }
     ]
-  },
-  "sitemapLocation": "sitemap7.json"
+  }
 }
